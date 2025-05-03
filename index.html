@@ -19,12 +19,15 @@
         <header>
             <div class="logo">
                 <div class="mainLogo">
-                    <i class="fa-solid fa-bars"></i>
+                    <div class="bar" id="menu-toggle">
+                        <i class="fa-solid fa-bars" id="bar-icon"></i>
+                        <i class="fa-regular fa-circle-xmark" id="close-icon" style="display: none;"></i>
+                    </div>
                     <p>Fountain</p>
                 </div>
                 <i class="fa-solid fa-circle-user"></i>
             </div>
-            <nav>
+            <nav class="homeContainer " id="mobile-nav">
                 <ul class="home">
                     <li>
                         <a href="#">Home</a>
@@ -63,7 +66,7 @@
             <button class="startedButton"> Get Started</button>
         </div>
 
-    <nav>
+    <nav >
         <ul class="box">
             <li class="boxItem" >
                 <div class="icon">
@@ -82,7 +85,7 @@
             <li class="boxItem">
                 <div class="icon">
                     <i class="fa-regular fa-user"></i>                </div>
-                <span  class="boxContent">Competion</span>
+                <span  class="boxContent">Competition</span>
             </li>
 
         </ul>
@@ -121,14 +124,7 @@
         </div>
         </div>
     
-    </main>
-
-
-
-    
-
-
-
-    
+    </main> 
+    <script src="index.js"></script>
 </body>
 </html>

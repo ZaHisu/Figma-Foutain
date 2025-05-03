@@ -1,0 +1,18 @@
+
+const bars = document.getElementById("menu-toggle")
+const mobileNav = document.getElementById("mobile-nav")
+const barIcon= document.getElementById("bar-icon")
+const closeIcon = document.getElementById("close-icon")
+bars.addEventListener("click", function(){
+    mobileNav.classList.toggle("active")
+    if(mobileNav.classList.contains("active")){
+        barIcon.style.display = "none"
+        closeIcon.style.display ="block"
+
+    }else {
+    barIcon.style.display = "block"
+    closeIcon.style.display ="none"
+}
+
+
+})
